@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway/static/Raleway-Light.ttf");
+}
+
+html {
+    max-height: none;
+    overflow: scroll;
+    font-family: "Raleway", serif;
+    background-color: chartreuse;
+}
+
+a:visited {
+    color: grey;
+}
+
+h1 {
+    color: #0065fc;
+}
+
+#head_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    color: #0065fc;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    margin: 0px 37px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.lodgingbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lodging {
+    width: 31%;
+    padding-bottom: 50px;
+    padding-right: 18px;
+}
+
+.pic {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 20px / 20px;
+    border-collapse: collapse;
+}
+
+.fas {
+    color: blue;
+}
+.far {
+    color: blue;
+}
+i {
+    color: blue;
+}
+#lodging {
+    background-color: blueviolet;
+}
+
+#trending {
+    height: 1100px;
+    width: 20%;
+    background-color: royalblue;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 20px / 20px;
+}
+
+.popularcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.trendinglodging {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    width: 100%;
+    border-collapse: separate;
+}
+
+#activities {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 90%;
+    object-fit: fill;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cardact {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    object-fit: fill;
+    height: 500px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px / 20px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.imgcard {
+    max-height: 1000px;
+}
+.imgcard img {
+    height: 200px;
+    object-fit: fill;
+    border: 2px solid white;
+    border-radius: 20px / 20px;
+    border-collapse: collapse;
+}
+
+#contact {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
