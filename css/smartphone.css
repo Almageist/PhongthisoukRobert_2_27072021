@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "Raleway-variable1";
+    src: url("fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-variable2";
+    src: url("fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
     font-family: "Raleway";
     src: url("fonts/Raleway/static/Raleway-Light.ttf");
 }
@@ -26,7 +36,7 @@ html {
     max-height: none;
     overflow: scroll;
     font-family: "Raleway-semibold", "Raleway-black", "Raleway-extrabold",
-        "Raleway", "Raleway-bold", serif;
+        "Raleway", "Raleway-bold", "serif";
 
     height: 100%;
     width: 100%;
@@ -53,9 +63,7 @@ section#lodging {
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(6, 250px);
 }
-.lodgingevaluation {
-    position: absolute;
-}
+
 section#trending {
     grid-area: trending;
     display: grid;
@@ -110,10 +118,6 @@ a:visited {
 
 h1 {
     font-size: 17px;
-    font-weight: bold;
-}
-
-h2 {
     font-weight: bold;
 }
 
@@ -291,11 +295,11 @@ form {
     font-family: "raleway-semibold";
     padding: 0 10px;
 }
-#star.fa-star {
+.star.fa-star {
     color: #0065fc;
 }
 
-#nostar.fa-star {
+.nostar.fa-star {
     color: #f2f2f2;
 }
 
@@ -512,4 +516,9 @@ form {
 .evaluation {
     position: absolute;
     bottom: 5px;
+    color: #0065fc;
+}
+
+.lodgingevaluation {
+    color: #0065fc;
 }
