@@ -31,7 +31,13 @@ section#trending {
     grid-template-rows: 50px repeat(6, 250px);
 }
 section#lodging {
-    grid-template-rows: 50px repeat(6, 250px);
+    grid-template-rows: 50px repeat(3, 250px);
+    grid-template-columns: 1fr 1fr;
+}
+
+#lodging header {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 #bottom {
