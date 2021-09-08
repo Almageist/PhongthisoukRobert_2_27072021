@@ -33,10 +33,16 @@ body {
 }
 #navactivity {
     border-bottom: none;
+    border-top: 2px solid white;
 }
 
 #navregister {
     font-family: "Raleway-bold";
+    border-top: 2px solid white;
+}
+
+#navactivity a:visited {
+    color: black;
 }
 
 #catchphrase {
@@ -51,6 +57,7 @@ section#trending {
     border-radius: 20px 20px 20px 20px;
     grid-column-gap: 0;
     padding: 30px;
+    margin-right: 20px;
 }
 section#lodging {
     grid-row-start: 2;
@@ -63,6 +70,7 @@ section#lodging {
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     padding: 30px;
+    margin-left: 20px;
 }
 #activities {
     grid-area: activities;
@@ -73,6 +81,8 @@ section#lodging {
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 20px 90px 90px 90px 90px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #bottom {
@@ -131,14 +141,14 @@ section#lodging {
 }
 
 #trending h2 {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #trending h1 {
     font-size: 16px;
 }
 #trending p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #fullcard1 {
