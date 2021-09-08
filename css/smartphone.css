@@ -473,18 +473,18 @@ form {
     font-family: "raleway";
     font-weight: bold;
 }
-#lodgingcard {
+.lodgingcard {
     height: 100%;
     border-radius: 20px;
     box-shadow: 0 5px 10px silver;
 }
-#displaycard {
+.displaycard {
     height: 100%;
     border-radius: 20px;
     box-shadow: 0 5px 10px silver;
 }
 
-#displaycard figcaption {
+.displaycard figcaption {
     padding: 20px;
     line-height: normal;
 }

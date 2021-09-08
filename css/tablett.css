@@ -110,12 +110,11 @@ section#lodging {
     bottom: 5px;
     position: inherit;
 }
-#lodgingcard figcaption {
+.lodgingcard figcaption {
     position: inherit;
 }
 .lodgingevaluation {
     position: inherit;
-    bottom: 5px;
 }
 
 #bottomnav2 {
