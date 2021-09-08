@@ -295,11 +295,26 @@ form {
     font-family: "raleway-semibold";
     padding: 0 10px;
 }
-.star.fa-star {
-    color: #0065fc;
-}
 
-.nostar.fa-star {
+#nostar1.fa-star {
+    color: #f2f2f2;
+}
+#nostar2.fa-star {
+    color: #f2f2f2;
+}
+#nostar3.fa-star {
+    color: #f2f2f2;
+}
+#nostar4.fa-star {
+    color: #f2f2f2;
+}
+#nostar5.fa-star {
+    color: #f2f2f2;
+}
+#nostar6.fa-star {
+    color: #f2f2f2;
+}
+#nostar7.fa-star {
     color: #f2f2f2;
 }
 
