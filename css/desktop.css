@@ -96,12 +96,9 @@ section#lodging {
 }
 
 #lodging h2 {
-    font-size: 16px;
-}
-
-#lodging h3 {
     font-size: 14px;
 }
+
 #activities h2 {
     font-size: 16px;
 }
@@ -114,14 +111,20 @@ section#lodging {
     grid-column-start: 1;
     grid-column-end: 4;
 }
-#trending header {
-    font-size: 1em;
-}
 
 #activities header {
     grid-column-start: 1;
     grid-column-end: 5;
     justify-content: left;
+}
+
+#search {
+    margin-bottom: 15px;
+}
+
+#filter {
+    padding: 15px 15px 15px 0;
+    display: inline-block;
 }
 
 #trendingcardC {

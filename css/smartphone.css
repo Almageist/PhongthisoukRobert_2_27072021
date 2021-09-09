@@ -209,7 +209,7 @@ li {
 #catchphrase {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 125%;
+    font-size: 20px;
     font-weight: bold;
     grid-area: catchphrase;
     font-family: "raleway-semibold";
@@ -294,6 +294,13 @@ form {
     margin: 0 10px 10px 0;
 }
 
+#romantic:hover,
+#pet:hover,
+#family:hover,
+#dollar:hover {
+    background-color: #0065fc;
+    color: white;
+}
 .iconspan {
     font-family: "raleway-semibold";
     padding: 0 10px;
@@ -393,7 +400,7 @@ form {
     margin: -2px;
 }
 #charticon.fa-chart-line {
-    font-size: 2em;
+    font-size: 25px;
     margin-right: 5px;
     color: black;
 }
@@ -539,4 +546,5 @@ form {
 
 .lodgingevaluation {
     color: #0065fc;
+    position: absolute;
 }
