@@ -100,6 +100,10 @@ section#trending {
     color: #0065fc;
 }
 
+#navactivity a:visited {
+    color: black;
+}
+
 #bottom {
     grid-area: bottom;
     background-color: #f2f2f2;
