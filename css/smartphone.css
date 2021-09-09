@@ -126,10 +126,14 @@ h1 {
 }
 
 #trending h2 {
-    font-size: 16px;
+    font-size: 1.17em;
 }
 #lodging h2 {
-    font-size: 16px;
+    font-size: 1.17em;
+}
+
+#activities h2 {
+    font-size: 1.17em;
 }
 
 p {
