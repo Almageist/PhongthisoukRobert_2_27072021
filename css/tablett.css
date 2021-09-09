@@ -94,27 +94,11 @@ section#lodging {
     border-radius: 20px 20px 0 0;
     height: calc(100% - 80px);
 }
-#trendingcardA figcaption {
-    position: inherit;
-}
-#trendingcardB figcaption {
-    position: inherit;
-}
+
 #trendingcardC figcaption {
     width: 100%;
-    position: inherit;
-    height: 70px;
-}
 
-.evaluation {
-    bottom: 5px;
-    position: inherit;
-}
-.lodgingcard figcaption {
-    position: inherit;
-}
-.lodgingevaluation {
-    position: inherit;
+    height: 80px;
 }
 
 #bottomnav2 {
@@ -162,7 +146,7 @@ section#lodging {
     grid-column: 3;
     grid-row: 1;
 
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 2px solid white;
     font-family: "raleway-bold";
     color: #deebff;
 }
