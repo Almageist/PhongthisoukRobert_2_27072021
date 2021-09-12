@@ -140,7 +140,7 @@ section#lodging {
 
     border-bottom: 2px solid #0065fc;
     font-family: "raleway-bold";
-    color: #deebff;
+    color: black;
 }
 #navactivity {
     grid-column: 3;
@@ -148,7 +148,7 @@ section#lodging {
 
     border-bottom: 2px solid white;
     font-family: "raleway-bold";
-    color: #deebff;
+    color: black;
 }
 #navregister {
     grid-column: 4;

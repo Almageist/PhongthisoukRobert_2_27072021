@@ -29,20 +29,24 @@ body {
 }
 #navlodging {
     border-bottom: none;
+    color: black;
 }
 
 #navlodging:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
+    border-bottom: 2px solid white;
 }
 
 #navactivity {
     border-bottom: none;
     border-top: 2px solid white;
+    color: black;
 }
 #navactivity:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
+    border-bottom: 2px solid white;
 }
 
 #navregister {
