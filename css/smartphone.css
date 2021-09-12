@@ -219,6 +219,9 @@ li {
     color: #deebff;
     line-height: 57px;
 }
+#navregister a:visited {
+    color: #0065fc;
+}
 
 #catchphrase {
     padding-left: 20px;
