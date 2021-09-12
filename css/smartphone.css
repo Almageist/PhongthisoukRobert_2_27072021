@@ -97,14 +97,6 @@ section#trending {
         "post";
 }
 
-#head_title a:visited {
-    color: #0065fc;
-}
-
-#navactivity a:visited {
-    color: black;
-}
-
 #bottom {
     grid-area: bottom;
     background-color: #f2f2f2;
@@ -114,9 +106,8 @@ section#trending {
 }
 
 a {
-    color: #0065fc;
+    color: black;
 }
-
 a:visited {
     color: black;
 }
@@ -181,8 +172,11 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #0065fc;
+    color: black;
     font-family: "raleway-bold";
+}
+#navlodging:hover {
+    border-bottom: 2px solid #0065fc;
     color: #deebff;
 }
 #navactivity {
@@ -193,8 +187,13 @@ li {
     justify-content: center;
     border-bottom: 2px solid #f2f2f2;
     font-family: "raleway-bold";
+    color: black;
+}
+#navactivity:hover {
+    border-bottom: 2px solid #0065fc;
     color: #deebff;
 }
+
 #navregister {
     grid-column: 2;
     grid-row: 1;
