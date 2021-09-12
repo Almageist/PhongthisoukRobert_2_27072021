@@ -105,10 +105,24 @@ section#trending {
     padding: 20px;
 }
 
-a {
+#trending a {
     color: black;
 }
-a:visited {
+#trending a:visited {
+    color: black;
+}
+
+#lodging a {
+    color: black;
+}
+#lodging a:visited {
+    color: black;
+}
+
+#activity a {
+    color: black;
+}
+#activity a:visited {
     color: black;
 }
 
@@ -177,7 +191,7 @@ li {
 }
 #navlodging:hover {
     border-bottom: 2px solid #0065fc;
-    color: #deebff;
+    color: #0065fc;
 }
 #navactivity {
     grid-column: 2;
@@ -191,7 +205,7 @@ li {
 }
 #navactivity:hover {
     border-bottom: 2px solid #0065fc;
-    color: #deebff;
+    color: #0065fc;
 }
 
 #navregister {

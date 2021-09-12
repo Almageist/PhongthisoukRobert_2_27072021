@@ -12,7 +12,7 @@ body {
     z-index: 1000;
 }
 
-#head_title a:visited {
+#navregister a:visited {
     color: #0065fc;
 }
 

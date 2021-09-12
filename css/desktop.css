@@ -20,7 +20,7 @@ body {
     position: inherit;
 }
 
-#head_title a:visited {
+#navregister a:visited {
     color: #0065fc;
 }
 
@@ -29,20 +29,25 @@ body {
 }
 #navlodging {
     border-bottom: none;
-    border-top: 2px solid #0065fc;
 }
+
+#navlodging:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+
 #navactivity {
     border-bottom: none;
     border-top: 2px solid white;
+}
+#navactivity:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
 }
 
 #navregister {
     font-family: "Raleway-bold";
     border-top: 2px solid white;
-}
-
-#navactivity a:visited {
-    color: black;
 }
 
 #catchphrase {
